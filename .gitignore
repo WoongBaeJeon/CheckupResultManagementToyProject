@@ -1,0 +1,39 @@
+# Visual Studio
+.vs/
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet packages and build output
+packages/
+*.nupkg
+TestResults/
+
+# Local databases and backups
+*.mdf
+*.ldf
+*.bak
+
+# Secrets and certificates
+.env
+.env.*
+*.pfx
+*.p12
+*.key
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Local tooling
+.codex/
+.codex-finalizer/
+node_modules/
+
